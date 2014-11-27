@@ -13,6 +13,5 @@
    <project remote="yocto" name="poky" path="yocto-mainline" />
    <project remote="yocto" name="meta-selinux" path="meta-selinux" />
    <project remote="yocto" name="meta-intel" path="meta-intel" />
-   <project remote="yocto" name="meta-security" path="meta-security" />
 
 </manifest>
