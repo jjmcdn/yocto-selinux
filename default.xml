@@ -3,7 +3,6 @@
    <!-- shorthand for repos to fetch -->
    <remote fetch="git://github.com/" name="github"/>
    <remote fetch="git://git.yoctoproject.org/" name="yocto"/>
-   <remote fetch="git://git.enea.com/linux/" name="enea"/>
    <remote fetch="git://git.openembedded.org/" name="oe"/>
    <!-- remote fetch="" name=""/ -->
 
@@ -12,6 +11,6 @@
 
    <project remote="yocto" name="poky" path="yocto-mainline" />
    <project remote="yocto" name="meta-selinux" path="meta-selinux" />
-   <project remote="yocto" name="meta-intel" path="meta-intel" />
+   <project remote="oe"    name="meta-openembedded" path="meta-openembedded" />
 
 </manifest>
